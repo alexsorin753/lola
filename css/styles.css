@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   /* background-color: #F88DAD;*/
+    background: url(/Programing/webDEV/lola/images/paws.png);
+    margin: 0;
+}
+#body-of {
+    overflow: hidden;
+}
+main {
+    margin: 10px 200px;
+}
+#main-slide {
+    position: relative;
+    height: fit-content;
+}
+.glide {
+    position: absolute;
+}
+.glide__slide {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+}
+.responsive-image {
+    max-height: 900px;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 10px;
+    
+}
+.glide__arrow {
+    font-size: 25px;
+    color: #8390fa !important;
+    border: 2px solid #8390fa !important;
+    transition: .5s !important;
+}
+.glide__arrow:hover {
+    color: #fac748 !important;
+    border: 2px solid #fac748 !important;
+
+}
+
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#links-mobile {
+    display: none;
+}
+
+.title {
+    color: #f9e9ec;
+    font-size: 25px;
+    margin: 0;
+}
+
+.title a {
+    text-decoration: none;
+    color: #8390fa;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.title a:hover {
+    color: #fac748 !important;
+}
+
+
+
+/* GLIDE ROW 2*/
+.glide2 {
+    overflow: hidden;
+}
+
+.glide3 {
+    overflow: hidden;
+}
+
+.glide2__slides {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+}
+.img-container {
+    display: inline; 
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.glide2__slide {
+    margin-left: 25px;
+
+}
+.glide2__slide img {
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 400px;
+
+}
+.glide2__slide img:hover {
+    transform: scale(1.01);
+}
+
+.glide2__arrow {
+    background-color: #8390fa !important;
+    font-size: 20px;
+    color: #f9e9ec  !important;
+    border: 2px solid #f9e9ec !important;
+    transition: .5s !important;
+}
+.glide2__arrow:hover {
+    color: #fac748 !important;
+    border: 2px solid #fac748 !important;
+}
+
+
+
+
+
+#main {
+    margin: 50px !important;
+
+}
+.flex-container {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.flex-element {
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+
+.flex-img {
+    max-width: 100%;
+    border-radius: 10px;    
+    max-height: 450px;
+    box-shadow: 2px 2px 10px #f9e9ec;
+}
+.flex-img:hover {
+    transform: scale(1.01);
+}
+.flex-container-mobile {
+    display: none;
+}
+#up-button {
+    position: fixed;
+    width: 4vw;
+    height: 4vw;
+    background-color: #8390fa;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
+    color: #f9e9ec;
+    opacity: .5;
+    cursor: pointer; 
+}
+#up-button button::-moz-focus-inner {
+    border: 0;
+  }
+#up-button:focus {
+    outline: none;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+    .responsive-image {
+        width: 100%;
+        max-height: none;
+    }
+    main {
+        margin: 0 10px;
+    }
+    #links {
+        display: none;
+    }
+    #links-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    #links-mobile .title a {
+        font-size: 20px;
+    }
+    body {
+        background: #f88dad;
+    }
+    #body-of {
+        overflow: auto;
+    }
+    .glide__arrows {
+        display: none;
+    }
+    .flex-container {
+        display: none;
+    }
+    .flex-container-mobile {
+        display: block;
+    }
+
+    #up-button {
+        width: 15vw;
+        height: 15vw;
+        bottom: 10px;
+        right: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 5vw;
+    }
+
+    #main {
+        margin: 10px !important;
+    }
+    .flex-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .flex-element {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    
+    
+    .flex-img {
+        max-height: none;
+        box-shadow: none;
+    }
+    .flex-img:hover {
+        transform: none;
+    }
+}
+
+
