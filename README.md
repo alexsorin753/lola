@@ -1,2 +1,0 @@
-# lola
-lola picture site
