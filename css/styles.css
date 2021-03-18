@@ -231,9 +231,7 @@ main {
     }
     /*FIRST PAGE (index.html) ONLY >*/
     .responsive-image {
-        max-height: 90vh;
         width: 100%;
-        max-height: none;
     }
     .glide__arrows {
         display: none;
