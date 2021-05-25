@@ -90,8 +90,8 @@ body {
     top: 16%;
 }
 .XZ1 {
-    top: 49%;
-    transform: translateY(-51%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 .XZ2 {
     top: 83%;
@@ -177,8 +177,11 @@ body {
     .winsX button, .winsO button, .tryAgain button {
         font-size: 6vw;
     }
-    .XZ0, .XZ1, .XZ2, .XZ3, .XZ4, .XZ5, .XZ6, .XZ7 {
+    .XZ0, .XZ1, .XZ2,.XZ6, .XZ7 {
         height: 2vw;
+    }
+    .XZ3, .XZ4, .XZ5 {
+        width: 2vw;
     }
     .currentYEAR {
         font-size: 7vw;
