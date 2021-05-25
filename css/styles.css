@@ -12,7 +12,20 @@ body {
 
 
 
-
+/*TITLE >*/
+.currentYEAR {
+    text-align: center;
+    font-size: 2.5vw;
+    color: #8390fa;
+    margin-top: 1vw;
+}
+.currentYEAR hr {
+    margin: 0;
+    background: linear-gradient(to left, transparent, #8390fa, transparent);
+    height: .15vw;
+    border: none;
+}
+/*< TITLE*/
 
 /*Ics si Zero >*/
 .zeroIcs {
