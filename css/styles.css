@@ -17,7 +17,7 @@ body {
     text-align: center;
     font-size: 2.5vw;
     color: #8390fa;
-    margin-top: 1vw;
+    margin: 2vw 0 1vw 0;
 }
 .currentYEAR hr {
     margin: 0;
@@ -180,16 +180,15 @@ body {
     .XZ0, .XZ1, .XZ2, .XZ3, .XZ4, .XZ5, .XZ6, .XZ7 {
         height: 2vw;
     }
+    .currentYEAR {
+        font-size: 7vw;
+        margin-top: 20px;
+    }
+    .currentYEAR hr {
+        height: .5vw;
+    }
 }
 /*< Ics si Zero*/
-
-
-
-
-
-
-
-
 
 
 main {
@@ -310,7 +309,7 @@ main {
 
 
 #main {
-    margin: 50px !important;
+    margin: 15px 50px !important;
 
 }
 .flex-container {
